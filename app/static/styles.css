@@ -1,0 +1,53 @@
+ul.posts,ul.comments{
+	list-style-type: none;
+	padding: 0px;
+	margin: 16px 0px 0px 0px;
+	border-top: 1px solid #e0e0e0;
+}
+li.post,li.comment{
+	padding:8px;
+	border-bottom: 1px solid #e0e0e0;
+}
+li.post:hover,li.comment:hover{
+	background-color: #f0f0f0;
+}
+.post-date,.comment-date{
+	float: right;
+}
+.post-author{
+	font-weight: bold;
+}
+.post-thumbnail,.comment-thumbnail{
+	position: absolute;
+}
+.post-content,.comment-content{
+	margin-left: 48px;
+	min-height: 48px;
+}
+.profile-thumbnail,.profile-thumbnail{
+	position: absolute;
+}
+
+.user-profile{
+	margin-left: 280px;
+	min-height: 260px;
+}
+a.btn {
+	margin-top: 30px;
+	margin-right: 30px;
+}
+.post-footer a{
+	text-decoration: none;
+}
+
+.post-footer{
+	text-align: right;
+}
+
+.posts-tabs{
+	margin-top: 20px;
+}
+.comment-form{
+	margin-left: 40px;
+}
+
